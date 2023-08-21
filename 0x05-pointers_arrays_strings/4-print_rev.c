@@ -9,12 +9,11 @@ void print_rev(char *s)
 	int run = 0;
 	int m;
 	while (*s != '\0')
-
 	{
 		run++;
 		s++;
 	}
-	s--
+	s--;
 	for (m = run; m > 0; m--)
 	{
 		_putchar(*s);
