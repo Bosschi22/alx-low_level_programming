@@ -6,8 +6,8 @@
  */
 void print_rev(char *s)
 {
-	int run = 0;
-	int m;
+int run = 0;
+int m;
 	while (*s != '\0')
 	{
 		run++;
