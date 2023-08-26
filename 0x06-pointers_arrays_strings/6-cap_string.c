@@ -26,7 +26,7 @@ int marker = 0;
 	str[marker - 1] == '{' ||
 	str[marker - 1] == '}' ||
 	marker == 0)
-	str[marker] == 32;
+	str[marker] -= 32;
 	marker++;
 	}
 	return (str);
