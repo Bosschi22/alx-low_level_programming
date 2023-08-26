@@ -13,7 +13,7 @@ int a;
 	{
 	if (n[a] >= 'a' && n[a] <= 'z')
 		n[a] = n[a] - 32;
-	a++
+	a++;
 	}
 	return (n);
 }
