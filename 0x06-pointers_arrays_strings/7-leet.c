@@ -18,7 +18,7 @@ char x2[] = "4433007711";
 		{
 			n[a] = x2[b];
 		}
-	return (n);
 		}
 	}
+	return (n);
 }
