@@ -18,7 +18,7 @@ int sum0, sum1, z;
 	}
 	for (z = size - 1; z >= 0; z--)
 	{
-	sumx += a[z * size + (size - y - 1)];
+	sumx += a[z * size + (size - z - 1)];
 	}
 	printf("%d, %d\n", sum0, sum1);
 }
