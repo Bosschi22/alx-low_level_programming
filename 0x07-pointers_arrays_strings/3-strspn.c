@@ -14,15 +14,15 @@ int x;
 	{
 		for (x = 0; accept[x]; x++)
 		{
-		if (*s == accept[x])
-		{
-			n++;
-			break;
-		}
-		else if (accept[x + 1] == '\0')
+			if (*s == accept[x])
+			{
+				n++;
+				break;
+			}
+			else if (accept[x + 1] == '\0')
 			return (n);
 		}
 		s++;
 	}
-	return (0);
+	return (n);
 }
