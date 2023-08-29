@@ -16,11 +16,11 @@ int x;
 		{
 		if (*s == accept[x])
 		{
-		n++;
-		break;
+			n++;
+			break;
 		}
 		else if (accept[x + 1] == '\0')
-		return (n);
+			return (n);
 		}
 		s++;
 	}
