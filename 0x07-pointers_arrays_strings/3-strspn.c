@@ -24,5 +24,5 @@ int x;
 		}
 		s++;
 	}
-	return (n);
+	return (0);
 }
