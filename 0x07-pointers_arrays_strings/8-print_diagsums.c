@@ -10,6 +10,8 @@
 void print_diagsums(int *a, int size)
 {
 int sumn, sumx, z;
+	sumn = 0;
+	sumx = 0;
 	for (z = 0; z < size; z++)
 	{
 	sumn = sumn + a[z * size + z];
