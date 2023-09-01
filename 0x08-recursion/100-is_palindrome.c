@@ -29,8 +29,9 @@ int _strlen_recursion(char *s)
  * @s: string check
  * @t: iterator
  * @len: lenght
+ * Return: 1 yes, 0 no
  */
-int check_pal(char *s, int t, int le n)
+int check_pal(char *s, int t, int len)
 {
 	if (*(s + t) != *(s + len - 1))
 		return (0);
