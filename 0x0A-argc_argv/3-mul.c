@@ -36,7 +36,7 @@ int a, b, c, len, f, digit;
 	}
 	if (f == 0)
 		return (0);
-	return (n);
+	return (c);
 }
 /**
  * main - multiplies two numbers
