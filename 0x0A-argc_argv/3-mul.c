@@ -28,7 +28,7 @@ int a, b, c, len, f, digit;
 				digit = -digit;
 			b = b * 10 + digit;
 			f = 1;
-			if (s[a + 1] < '0' || s[i + 1] > '9')
+			if (s[a + 1] < '0' || s[a + 1] > '9')
 				break;
 			f = 0;
 		}
