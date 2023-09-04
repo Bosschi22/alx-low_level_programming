@@ -25,7 +25,7 @@ int b, c;
 		{
 			for (; b >= 0; b--)
 				free(mee[b]);
-			free(mee)
+			free(mee);
 			return (NULL);
 		}
 	}
