@@ -22,7 +22,7 @@ listint_t *f = head;
 				s = s->next;
 				f = f->next;
 			}
-			return (fast);
+			return (f);
 		}
 	}
 	return (NULL);
