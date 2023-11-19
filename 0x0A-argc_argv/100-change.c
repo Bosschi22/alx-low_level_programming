@@ -20,7 +20,7 @@ int coins[] = {25, 10, 5, 2, 1};
 	}
 	fig = atoi(argv[1]);
 	result = 0;
-	if (num < 0)
+	if (fig < 0)
 	{
 		printf("0\n");
 		return (0);
