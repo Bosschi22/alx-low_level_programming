@@ -27,10 +27,10 @@ int coins[] = {25, 10, 5, 2, 1};
 	}
 	for (p = 0; p < 5 && fig >= 0; p++)
 	{
-		while (fig >= coins[j])
+		while (fig >= coins[p])
 		{
 			result++;
-			fig -= coins[j];
+			fig -= coins[p];
 		}
 	}
 	printf("%d\n", result);
