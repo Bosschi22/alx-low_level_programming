@@ -19,7 +19,7 @@ int t, size;
 	pr = malloc(sizeof(int) * size);
 	if (pr == NULL)
 		return (NULL);
-	for (j = 0; min <= max; j++)
-		pr[j] = min++;
+	for (t = 0; min <= max; t++)
+		pr[t] = min++;
 	return (pr);
 }
