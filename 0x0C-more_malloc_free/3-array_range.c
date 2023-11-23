@@ -16,7 +16,7 @@ int t, size;
 	if (min > max)
 		return (NULL);
 	size = max - min + 1;
-	pr = malloc(sizeof(int) * size);
+	ptr = malloc(sizeof(int) * size);
 	if (ptr == NULL)
 		return (NULL);
 	for (t = 0; min <= max; t++)
