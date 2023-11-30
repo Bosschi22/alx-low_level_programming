@@ -32,12 +32,12 @@ int m;
 		printf("Error\n");
 		exit(1);
 	}
-	n = atoi(argv[1]);
-	if (n < 0)
+	m = atoi(argv[1]);
+	if (m < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
-	print_opcodes((char *)&main, n);
+	print_opcodes((char *)&main, m);
 	return (0);
 }
