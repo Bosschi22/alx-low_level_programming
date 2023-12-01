@@ -17,8 +17,8 @@ unsigned int indx;
 	{
 		printf("%d", va_arg(figs, int));
 		if (indx != (n - 1) && separator != NULL)
-			printf("%s", separator)
+			printf("%s", separator);
 	}
-	printf("\n")
+	printf("\n");
 		va_end(figs);
 }
