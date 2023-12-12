@@ -16,6 +16,6 @@ int num;
 	num = (*head)->n;
 	tem = (*head)->next;
 	free(*head);
-	*head = temp;
+	*head = tem;
 	return (num);
 }
