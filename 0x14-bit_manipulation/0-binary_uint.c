@@ -8,15 +8,20 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int a;
-unsigned int number;
-	number = 0;
-	if (b == NULL)
+int x;
+unsigned int num;
+	num = 0;
+	if (!b)
 		return (0);
-	for (a = 0; b[a] != '\0'; a++)
+	for (x = 0; b[x] != '\0'; x++)
 	{
-		number <<= 1;
-		if (b[a] == '1')
-			number += 1;
+		if (b[x] != '0' && b[x] != '1')
+			return (0);
 	}
-	return (number);
+	for (x = 0; b[x] != '\0'; x++)
+	{
+		num <<= 1;
+		if (b[x] == '1')
+			num += 1;
+	}
+	return (num);
