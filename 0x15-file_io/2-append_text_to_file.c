@@ -21,7 +21,7 @@ int o, we, len = 0;
 	}
 	o = open(filename, O_WRONLY | O_APPEND);
 	we = write(o, text_content, len);
-	if (o == -1 || w == -1)
+	if (o == -1 || we == -1)
 		return (-1);
 	close(o);
 	return (1);
